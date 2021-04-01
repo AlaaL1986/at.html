@@ -1,27 +1,31 @@
+body {
+    background-color: #ffffff;
+    border-image: 0px;
+}
+
 .a {
-    background-color: #1313cc;
+    background: #415ab0;
     text-align: center;
-    padding: 2px;
-    margin: 6px;
+    padding: 1px;
+    margin: 4px;
 }
 
 ul {
     list-style-type: none;
+    overflow: hidden;
     margin: 3px;
-    background: rgb(156, 154, 154);
-    padding: 4px;
+    background: #CFDADA;
     margin-left: 250px;
 }
 
 th {
-    background: gray
+    background: #CFDADA
 }
 
 caption {
     border: solid 3px;
-    color: rgb(39, 39, 88);
-    background: rgb(156, 154, 154);
-    padding: 8px;
+    color: #415ab0;
+    background: #CFDADA padding: 8px;
     margin: 6px;
     margin-left: 2px;
 }
@@ -30,10 +34,14 @@ td {
     text-align: center;
 }
 
-img {
+.aaa {
     border: solid 4px;
-    color: rgb(100, 40, 156);
-    width: 350px;
-    margin: 4px;
+    color: #415ab0;
+    width: 300px;
+    margin: 3px;
     margin-left: 450px;
+}
+
+#id contact-box img {
+    float: left;
 }
